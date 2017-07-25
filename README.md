@@ -4,7 +4,7 @@
 {:toc}
 
 ## Mock Test 1
-### Question 1-10
+### 1-10
 
 1.	What is the difference between JDK and JRE ?
  
@@ -26,7 +26,7 @@
  
 10.	Is it possible to write more than one main() method in a class ?
 
-### Question 11-20
+### 11-20
 11.	What is Encapsulation ?
  
 12.	What is method overloading ?
@@ -47,7 +47,7 @@
  
 20.	What is super keyword ? Where we use ?
 
-### Question 21-30
+### 21-30
 21.	What is abstraction ? What is the purpose of abstraction ?
  
 22.	What is abstract class ? Benefits of writing an abstract class ?
@@ -69,7 +69,7 @@
 30.	Can we write a constructor inside abstract class or interface ?
 
 ## Mock Test 2
-
+### 1-10
 1.	How many data types we have in Java ?
 
 2.	What are access modifiers ?
@@ -89,6 +89,8 @@
 9.	Why we need Thread? Different way to create thread.
 
 10.	What is synchronization in thread?
+
+### 11-21
 
 11.	What is the need of Producer and Consumer class in threading?
 
