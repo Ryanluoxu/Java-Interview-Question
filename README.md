@@ -231,7 +231,7 @@ Polymorphism:
 #### 8.	What is the advantage of stored procedure ?
 
 #### 9.	What is JDBC ?
-
+Java database connectivity
 #### 10.	Types of JDBC Driver ?
 
 #### 11.	What are the steps to connect with the database in Java ?
