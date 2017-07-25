@@ -1,5 +1,7 @@
 # Java Interview Question
 
+Feel free to give me pull requests when you have better answer or I make any mistake.
+
 ## Mock Test 1
 
 ### 1.	What is the difference between JDK and JRE ?
@@ -144,29 +146,29 @@ JDK is Java Development Kit.
 
 ### 1.	What is MVC? What is DAO?
 
-2.	What is Web Container? Role of Web Container?
+### 2.	What is Web Container? Role of Web Container?
 
-3.	Difference between doGet() and doPost()
+### 3.	Difference between doGet() and doPost()
 
-4.	Difference between RequestDispatcher and SendRedirect
+### 4.	Difference between RequestDispatcher and SendRedirect
 
-5.	How many different ways we can handle session and servlet?
+### 5.	How many different ways we can handle session and servlet?
 
-6.	JSP life cycle
+### 6.	JSP life cycle
 
-7.	How many directives we have in JSP?
+### 7.	How many directives we have in JSP?
 
-8.	What is JSTL? What is Custom Tags?
+### 8.	What is JSTL? What is Custom Tags?
 
-9.	How to handle exception in JSP?
+### 9.	How to handle exception in JSP?
 
-10.	What is expression language in JSP?
+### 10.	What is expression language in JSP?
 
-11.	What is the difference between JNDI and JDBC?
+### 11.	What is the difference between JNDI and JDBC?
 
-12.	What is the difference between servlet, JSP and JSF?
+### 12.	What is the difference between servlet, JSP and JSF?
 
-13.	Difference between Web server and Application server?
+### 13.	Difference between Web server and Application server?
 
 
 
