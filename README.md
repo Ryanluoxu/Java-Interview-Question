@@ -273,7 +273,3 @@ Polymorphism:
 #### 13.	Difference between Web server and Application server?
 
 
-
-
-* auto-gen TOC:
-{:toc}
