@@ -4,7 +4,7 @@ Feel free to give me pull requests when you have better answer or I make any mis
 
 ## Mock Test 1
 
-### 1.	What is the difference between JDK and JRE ?
+#### 1.	What is the difference between JDK and JRE ?
 
 JDK is Java Development Kit.
  
