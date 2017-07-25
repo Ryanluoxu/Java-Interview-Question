@@ -232,6 +232,7 @@ Polymorphism:
 
 #### 9.	What is JDBC ?
 Java database connectivity
+Communicate with database.
 #### 10.	Types of JDBC Driver ?
 
 #### 11.	What are the steps to connect with the database in Java ?
