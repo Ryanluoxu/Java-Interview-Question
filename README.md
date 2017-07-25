@@ -1,6 +1,6 @@
 # Java Interview Question
 
-Feel free to give me pull requests when you have better answer or I make any mistake.
+Feel free to send me pull requests when you have better answer or I make any mistake.
 
 ## Mock Test 1
 
