@@ -7,6 +7,8 @@
 ### 1-10
 
 1.	What is the difference between JDK and JRE ?
+
+JDK is Java Development Kit.
  
 2.	What is the basic flow of execution once you write a Java program ?
  
