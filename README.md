@@ -4,6 +4,7 @@
 {:toc}
 
 ## Mock Test 1
+### Question 1-10
 
 1.	What is the difference between JDK and JRE ?
  
@@ -24,7 +25,8 @@
 9.	What is OOPs ?
  
 10.	Is it possible to write more than one main() method in a class ?
- 
+
+### Question 11-20
 11.	What is Encapsulation ?
  
 12.	What is method overloading ?
@@ -44,7 +46,8 @@
 19.	What is advantages of inheritance ?
  
 20.	What is super keyword ? Where we use ?
- 
+
+### Question 21-30
 21.	What is abstraction ? What is the purpose of abstraction ?
  
 22.	What is abstract class ? Benefits of writing an abstract class ?
