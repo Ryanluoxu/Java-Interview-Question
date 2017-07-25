@@ -1,11 +1,8 @@
 # Java Interview Question
 
-* auto-gen TOC:
-{:toc}
-
 ## Mock Test 1
 
-#### 1.	What is the difference between JDK and JRE ?
+### 1.	What is the difference between JDK and JRE ?
 
 JDK is Java Development Kit.
  
@@ -171,3 +168,8 @@ JDK is Java Development Kit.
 
 13.	Difference between Web server and Application server?
 
+
+
+
+* auto-gen TOC:
+{:toc}
