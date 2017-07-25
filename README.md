@@ -1,4 +1,8 @@
 # Java Interview Question
+
+* auto-gen TOC:
+{:toc}
+
 ## Mock Test 1
 
 1.	What is the difference between JDK and JRE ?
