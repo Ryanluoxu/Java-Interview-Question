@@ -12,19 +12,34 @@ Feel free to give me pull requests when you have better answer or I make any mis
 - For example, if we just want to run a Java program, JRE is enough. If we want to create a Java program, then we need JDK.
  
 #### 2.	What is the basic flow of execution once you write a Java program ?
+- The program we write is Java Source Code. Once we write a source code, Java compiler will compile it to Java Byte Code. Then Class Loader verifies this Byte Code and passes to JVM where byte codes will be executed. 
+- For example, we have a source code program called Hello.java. Compiler will compile it to Hello.class which is Byte Code. Then class loader will load it and verify it, and pass to JVM where Hello.class will be executed.
  
 #### 3.	Why we need main() method ?
+- Main method is the entry point that Class Loader looks for. We need main method as starting point so that our program can start executing.
  
 #### 4.	Why main() is static ?
+- For non static method, we need to create an object so that we can access the method. But Class Loader is not able to create an object and it has to access main method in the beginning of the program. So main method must be static so that Class Loader can access it without creating an object.
 
 #### 5.	What do you mean by static ?
-  
+- Static means the variables or methods are available at class level. We don’t have to create an instance of the class to access it. 
+- For example, we have a public class called 'Company', and there are two methods which are static method showCompany and non-static method showCompanyAddress. So we can access showCompany directly. But we have to create an object of class Company to access showCompanyAddress.
+
 #### 6.	What is Class ? Give me an example.
+- Class is something in general. It is to provide templates to create objects. This template can define variables and methods so that the member of this class can access those variables as state and methods as its behavior.
+- The purpose of writing class is to protect our data members which are attributes and methods.
+- For example, we have a class called 'Bank' which contains variable bankCode and method showBankCode. Then we create a member called DBS of this class so that DBS will have variable of bankCode and method of showBankCode.
  
 #### 7.	What is Object ? Give me an example. 
- 
+- Object is a specified item. Like this book is an object. 
+- Or we can say object is an instance of the class. To call non static method from a static method, object has to be created first.  For example, we have a class called Customer, and Jason is the one of customer. So Jason is an object of this Customer class. 
+
 #### 8.	What statement we write to create object ?
- 
+- We use 'new' operator to create an object. 
+- Statement is : 'Class object = new Class();'.
+- For example, University NUS = new University();
+- Once we creates an object, it goes in Heap. And find the reference in Stack. Finally it will be cleared by GC.
+
 #### 9.	What is OOPs ?
  
 #### 10.	Is it possible to write more than one main() method in a class ?
