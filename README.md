@@ -7,8 +7,10 @@ Feel free to give me pull requests when you have better answer or I make any mis
 ### 1-10
 
 #### 1.	What is the difference between JDK and JRE ?
-
-JDK is Java Development Kit.
+>
+a.	JDK is Java Development Kit including JRE and developer tools, like compiler and debugger
+b.	JRE is Java Runtime Environment where Java programs run on. Inside JRE basically it's JVM ( including class loader, Execution engine..)
+c.	For example, if we just want to run a Java program, JRE is enough. If we want to create a Java program, then we need JDK.
  
 #### 2.	What is the basic flow of execution once you write a Java program ?
  
