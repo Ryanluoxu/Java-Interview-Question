@@ -48,7 +48,7 @@ JDK is Java Development Kit.
 
 #### 21.	What is abstraction ? What is the purpose of abstraction ?
  
-### 22.	What is abstract class ? Benefits of writing an abstract class ?
+#### 22.	What is abstract class ? Benefits of writing an abstract class ?
  
 #### 23.	What is interface ? Benefits of writing an interface ?
  
