@@ -4,6 +4,8 @@ Feel free to give me pull requests when you have better answer or I make any mis
 
 ## Mock Test 1
 
+### 1-10
+
 #### 1.	What is the difference between JDK and JRE ?
 
 JDK is Java Development Kit.
@@ -26,6 +28,7 @@ JDK is Java Development Kit.
  
 #### 10.	Is it possible to write more than one main() method in a class ?
 
+### 11-20
 #### 11.	What is Encapsulation ?
  
 #### 12.	What is method overloading ?
@@ -46,6 +49,7 @@ JDK is Java Development Kit.
  
 #### 20.	What is super keyword ? Where we use ?
 
+### 21-30
 #### 21.	What is abstraction ? What is the purpose of abstraction ?
  
 #### 22.	What is abstract class ? Benefits of writing an abstract class ?
@@ -68,6 +72,7 @@ JDK is Java Development Kit.
 
 ## Mock Test 2
 
+### 1-10
 #### 1.	How many data types we have in Java ?
 
 #### 2.	What are access modifiers ?
@@ -88,6 +93,7 @@ JDK is Java Development Kit.
 
 #### 10.	What is synchronization in thread?
 
+### 11-21
 #### 11.	What is the need of Producer and Consumer class in threading?
 
 #### 12.	What is Thread Pool ?
