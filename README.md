@@ -36,8 +36,8 @@ Feel free to give me pull requests when you have better answer or I make any mis
 
 #### 8.	What statement we write to create object ?
 - We use 'new' operator to create an object. 
-- Statement is : 'Class object = new Class();'.
-- For example, University NUS = new University();
+- Statement is : `Class object = new Class();`.
+- For example, `University NUS = new University();`
 - Once we creates an object, it goes in Heap. And find the reference in Stack. Finally it will be cleared by GC.
 
 #### 9.	What is OOPs ?
