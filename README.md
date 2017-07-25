@@ -41,11 +41,26 @@ Feel free to give me pull requests when you have better answer or I make any mis
 - Once we creates an object, it goes in Heap. And find the reference in Stack. Finally it will be cleared by GC.
 
 #### 9.	What is OOPs ?
+- OOPs is Object Oriented Programs.
+- Object Oriented means we organize our software as a combination of objects.
+- Basic concepts of OOPs is Object, Class, Inheritance, Polymorphism, Abstraction and Encapsulation.
  
 #### 10.	Is it possible to write more than one main() method in a class ?
+- Yes. It's possible as long as the method parameter is different. This is called method overloading. 
 
 ### 11-20
 #### 11.	What is Encapsulation ?
+- Encapsulation is a mechanism of wrapping the data and code so that the variables of this class can be only accessed through certain methods. The purpose is to protect our variable or attributes.
+- To achieve encapsulation, we declare the variables as private. And provide public setter and getter methods to modify and view the values.
+- For example, we have a class called Account which has an attribute: password.
+```
+public class Account {
+   private String password;
+   // setter and getter
+   ..
+}
+```
+
  
 #### 12.	What is method overloading ?
  
