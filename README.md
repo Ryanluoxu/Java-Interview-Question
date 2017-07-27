@@ -4,6 +4,9 @@ Feel free to send me pull requests when you have better answer or I make any mis
 
 ## Mock Test 1
 
+- dd
+ - dd
+
 ### 1-10
 
 #### 1.	What is the difference between JDK and JRE ?
