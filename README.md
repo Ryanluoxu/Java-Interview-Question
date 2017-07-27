@@ -462,22 +462,62 @@ Types:
 
 
 #### 4.	Difference between RequestDispatcher and SendRedirect
+-	RequestDispatcher is used to pass request to another resource, like servlet, JSP or HTML. But URL can be remained. 
+-	sendRedict will pass request to other application. So URL will change. 
+
 
 #### 5.	How many different ways we can handle session and servlet?
+-	4 types: Http Session; Cookies; HTML hidden field; URL rewriting
 
 #### 6.	JSP life cycle
+1.	JSP code -> Servlet code
+-	Servlet code -> byte code
+-	Load Servlet class
+-	Create Servlet instance
+-	Call Init();
+-	Call Serve();
+-	Call Destroy();
+
 
 #### 7.	How many directives we have in JSP?
+-	Page directive
+-	Include directive
+-	Taglib directive
+
 
 #### 8.	What is JSTL? What is Custom Tags?
+-	Java Standard Tag Library. It is a collection of JSP custom tags. We use to simplify JSP development.
+-	Custom tags provide mechanism to separate the view and logic in JSP page. So people of both front-end and back-end can focus their own jobs.
+
 
 #### 9.	How to handle exception in JSP?
+- Two ways:
+    - By errorPage and isErrorPage attributes of page directive
+    - By <error-page> element in web.xml file
+
 
 #### 10.	What is expression language in JSP?
+-	We use JSP EL to access data stored in JavaBeans.
 
 #### 11.	What is the difference between JNDI and JDBC?
+-	Java Naming and Directory Interface
+-	JDBC is java database API while JNDI is java native directory API.
+-	We use JDBC to get a connection through JNDI lookup.
+
 
 #### 12.	What is the difference between servlet, JSP and JSF?
+-	JSP
+    - Java server page: a view technology. Font-end.
+    - Use to control page dynamically
+-	Servlets
+    - It is a controller. 
+    - Use to receive requests and send response
+-	JSF
+    - MVC framework providing a set of tags.
+
 
 #### 13.	Difference between Web server and Application server?
+-	Web server is to deal with Http request and response. Like Tomcat.
+-	When we need transaction and security, we need to apply application server between DB and web servers. Like JBoss.
+
 
