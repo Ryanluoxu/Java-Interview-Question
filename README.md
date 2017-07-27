@@ -394,8 +394,12 @@ Types:
 4. Thin driver ( fully)
     - The thin driver converts JDBC calls directly into vendor-specific database protocol.
     - Better performance and no software is required on both client and server.
-    ![4](http://pic/4.emf)
- 
+    ![4](https://github.com/Ryanluoxu/Java-Interview-Question/blob/master/pic/4.emf)
+    
+     ![4](https://github.com/Ryanluoxu/Java-Interview-Question/blob/master/pic/mmexport1500263471803.jpg)
+    
+    
+
 
 
 #### 11.	What are the steps to connect with the database in Java ?
