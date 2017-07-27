@@ -450,7 +450,7 @@ Types:
 
 #### 2.	What is Web Container? Role of Web Container?
 - It is a component of a web server. We use it to interact with servlets.  
-    ![WebContainerPic](https://goo.gl/dEfcGm)
+    ![WebContainerPic](https://goo.gl/pN544F)
 - Container is a place where servlet gets deployed. Load servlet class -> instantiate servlet object -> init() -> service() -> destroy();
 - It is responsible to manage the lifecycle of servlets
 - E.g. Tomcat
