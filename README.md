@@ -170,10 +170,23 @@ Polymorphism:
 
 ### 1-10
 #### 1.	How many data types we have in Java ?
+- Primitive : int, short, long, byte, float, double, char, boolean
+- Non primitive: String, Arrays, user defined classes
 
 #### 2.	What are access modifiers ?
+They are attributes that determine whether a class can be accessed.
+Types:
+- Public: outside class and package
+- Private: only within the class
+- Protected: within the package; outside the package with inheritance only
+- Default: only within the package
 
 #### 3.	What is array ? benefits and limitation.
+- Array is a fixed sized data structure to store similar data type.
+- Benefits: Optimize the codes, so that we can store, retrieve or sort the data easily
+- Limitation
+i.	The size of array is fixed. We can’t change the size at runtime.
+ii.	We need the decide the data type when we create array.
 
 #### 4.	Importance of .equals() and hashCode().
 
