@@ -187,7 +187,7 @@ Types:
 - Limitation
  - The size of array is fixed. We can’t change the size at runtime.
  - We need the decide the data type when we create array.
-
+ 
 #### 4.	Importance of .equals() and hashCode().
 
 #### 5.	Why we need to handle exception ?
