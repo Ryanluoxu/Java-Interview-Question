@@ -386,12 +386,15 @@ Types:
 2. Native – API driver ( partially)
     - In this driver, JDBC API calls are converted into native API calls. And uses vendor database library to connect to DB.
     - Causes portability issue. Native driver and vendor library have to be installed in client machine.
+    ![2](http://pic/2.emf)
  3. Network Protocol driver ( fully)
     - Uses middleware to connect to DB. JDBC calls are converted into vendor-specific database protocol. 
     - No client side library is required but it is costly because of maintenance. 
+    ![3](http://pic/3.emf)
 4. Thin driver ( fully)
     - The thin driver converts JDBC calls directly into vendor-specific database protocol.
     - Better performance and no software is required on both client and server.
+    ![4](http://pic/4.emf)
  
 
 
