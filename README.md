@@ -211,11 +211,13 @@ Types:
     - For checked exception.
 
 #### 7.	Difference between checked and unchecked exception.
-- Checked exceptions:  the classes that extend Throwable class except RuntimeException and Error. They are being *checked at compile time*.
-- Unchecked exceptions: the classes that extend RuntimeException. They are being *checked at runtime*.
+- Checked exceptions:  the classes that extend Throwable class except RuntimeException and Error. They are being **checked at compile time**.
+- Unchecked exceptions: the classes that extend RuntimeException. They are being **checked at runtime**.
 
 
 #### 8.	What is the purpose of throw keyword?
+> 
+- The purpose is to handle those exceptions we need to handle manually
 
 #### 9.	Why we need Thread? Different way to create thread.
 
