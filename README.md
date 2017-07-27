@@ -5,8 +5,8 @@ Feel free to send me pull requests when you have better answer or I make any mis
 ## Mock Test 1
 
 1. o1
-  1. o2
-  2. o2
+    1. o2
+    2. o2
 2. o1
 
 ### 1-10
