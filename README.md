@@ -216,45 +216,119 @@ Types:
 
 
 #### 8.	What is the purpose of throw keyword?
-> 
 - The purpose is to handle those exceptions we need to handle manually
 
 #### 9.	Why we need Thread? Different way to create thread.
+- Threads allow us to do multiple tasks at the same time.
+- Two ways
+    - Extends Thread class
+    - Implements Runnable interface
+
 
 #### 10.	What is synchronization in thread?
+- It’s the capability to control the access of multiple threads to any shared resource.
+- We can use it to allow only one thread to access the shared resource at the time.
+
 
 ### 11-21
 #### 11.	What is the need of Producer and Consumer class in threading?
+- They are commonly used in multi-threaded program.
+- We can code Producer and Consumer independently, they just need to know shared object.
+- Producer and Consumer don’t have to know each other. 
+- Separate functionalities to producer and consumer, so that our codes are more clean, readable and manageable.  
+
 
 #### 12.	What is Thread Pool ?
+- It’s a group of threads that are waiting for the job.
+- The threads there can be reuse many times so that we avoid overhead of creating threads.
+
 
 #### 13.	What is volatile keyword ?
+- It’s used to mark a variable as “being stored in main memory”.
+- Means for these variables, we read it from main memory and write it to main memory.
+
 
 #### 14.	What is wrapper class ?
+- They’re used to create objects for eight primitive data types. Because sometimes only objects are acceptable. Like map and list.
 
 #### 15.	What is purpose of Generics ?
+- With the help of Generics, we can write a single generic method or class. And use the method or class with different type of arguments. ( wrapper class for primitive )
+- Like arraylist and map
+
 
 #### 16.	Tell me some interface name and classes in collection framework.
+- Set: HashSet, TreeSet and LinkedHashSet
+- List: ArrayList and LinkedList
+- Queue: LinkedList
+
 
 #### 17.	Collection is a class or interface ?
+- Collection is interface. It’s the parent interface of all collections in Java.
+- Collections is a utility class to implement the Collection interface.
+
 
 #### 18.	What is Comparable and Comparator interfaces ?
+- Comparable: It’s the interface that makes classes comparable. The object of those classes is capable to compare itself with other objects.
+- Comparator: It’s the interface that let classes become a comparator. The object of those classes is capable to compare two different objects.
+
 
 #### 19.	What is serialization in Java ?
+- It’s a mechanism that an object can be represented as a sequence of bytes.
+- The bytes includes: object’s data, object’s type and types of data.
+
 
 #### 20.	What is Marker interface ? What is the purpose ?
+- It's the interface without any fields or methods. It’s empty interface.
+- rializable, Clonnable and Remote
+- The purpose: it indicate signal or command to Complier.
+
 
 #### 21.	What is transient keyword ?
+- It’s the keyword to make variable unable to be serialized.
+- So JVM knows that variable is not part of the persistent state of the object.
+
 
 ### Database
 
 #### 1.	What is DBMS and RDMBS ?
+- The database management system is a collection of programs that enables user to store, retrieve, update and delete information from a database.
+- Relational Database Management system (RDBMS) 
+    - It is a database management system (DBMS) that is based on the relational model. 
+    - Data can be accessed in many different ways without having to reorganize the database tables. 
+    - Data can be accessed using an API , Structured Query Language (SQL).
+
 
 #### 2.	What is SQL ?
+- Structured Query Language is a language specially for communicating with databases. So that we can store, retrieve and manipulate the data in database.
 
 #### 3.	Different type of SQL’s statements ?
+- DDL: Data Definition Language
+    - To define the structure that holds the data.
+    - E.g. Create, Alter, Drop and Truncate table.
+- DML: Data Manipulation Language
+    - To manipulate the data.
+    - Insert, Update, delete
+- DCL: Data Control Language
+    - To control the visibility of data
+    - Grant, Revoke
+- DQL: Data Query Language
+    - Select
+- TCL: transaction Control Language
+    - Commit
+    - Rollback
+
 
 #### 4.	What are properties of a transaction ?	(ACID)
+- A transaction is a sequential group of DB manipulation operations as one single work unit.
+- Atomicity
+A transaction must be treated as a unit. Transaction finishes if all the steps completes, otherwise the transaction will be rolled back.
+- Consistency
+The database must remain in a consistent state after any transaction.
+- Isolation
+Make sure each transaction operates independently. They don’t affect each other.
+- Durability
+The database should be durable enough to hold all the updates even if the system fails or restarts. 
+
 
 #### 5.	What are the different type of normalization ?
 
