@@ -471,12 +471,12 @@ Types:
 
 #### 6.	JSP life cycle
 1.	JSP code -> Servlet code
--	Servlet code -> byte code
--	Load Servlet class
--	Create Servlet instance
--	Call Init();
--	Call Serve();
--	Call Destroy();
+2. Servlet code -> byte code
+3. Load Servlet class
+4. Create Servlet instance
+5. Call Init();
+6. Call Serve();
+7. Call Destroy();
 
 
 #### 7.	How many directives we have in JSP?
