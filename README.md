@@ -185,8 +185,8 @@ Types:
 - Array is a fixed sized data structure to store similar data type.
 - Benefits: Optimize the codes, so that we can store, retrieve or sort the data easily
 - Limitation
-++ The size of array is fixed. We can’t change the size at runtime.
-++ We need the decide the data type when we create array.
+ - The size of array is fixed. We can’t change the size at runtime.
+ - We need the decide the data type when we create array.
 
 #### 4.	Importance of .equals() and hashCode().
 
