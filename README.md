@@ -190,10 +190,25 @@ Types:
     - We need the decide the data type when we create array.
  
 #### 4.	Importance of .equals() and hashCode().
+- By generating hashCode() and equals(), we can compare the values of two objects.
+- hassCode() is used to create a temperate memory location for an object so that we can use .equal() to compare the values of objects.
 
 #### 5.	Why we need to handle exception ?
+- It is a process that converts system error into user friendly error message.
+- So that we can handle run time error and maintain normal flow of java application.
+- The purpose is to prevent data lost.
 
 #### 6.	How we handle exception ?
+- Try – catch : 
+    - Try: where we put our codes which may causes problem
+    - Catch: to provide the user friendly error message when exception happens 
+- Throw:
+    - For user defined exception
+    - To provide error message when user defined exception happens
+    - For those situation are wrong for us but right for JVM.
+- Throws: 
+    - throws keyword is within the method signature to indicate this method may cause exception. 
+    - For checked exception.
 
 #### 7.	Difference between checked and unchecked exception.
 
