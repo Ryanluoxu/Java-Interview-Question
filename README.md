@@ -320,28 +320,80 @@ Types:
 
 #### 4.	What are properties of a transaction ?	(ACID)
 - A transaction is a sequential group of DB manipulation operations as one single work unit.
-- Atomicity
-A transaction must be treated as a unit. Transaction finishes if all the steps completes, otherwise the transaction will be rolled back.
-- Consistency
-The database must remain in a consistent state after any transaction.
-- Isolation
-Make sure each transaction operates independently. They don’t affect each other.
-- Durability
-The database should be durable enough to hold all the updates even if the system fails or restarts. 
+- Atomicity: A transaction must be treated as a unit. Transaction finishes if all the steps completes, otherwise the transaction will be rolled back.
+- Consistency: The database must remain in a consistent state after any transaction.
+- Isolation: Make sure each transaction operates independently. They don’t affect each other.
+- Durability: The database should be durable enough to hold all the updates even if the system fails or restarts. 
 
 
 #### 5.	What are the different type of normalization ?
+- The process of removing the redundant data and make table well defined.
+Types:
+- First Normal Form (1NF)
+    - In 1NF, each column just hold one value.
+    - productID, color, price
+- 2NF
+    - It’s 1NF
+    - All non-key attributes are fully functional dependent on the primary key.
+- 3NF
+    - It’s 2NF
+    - There is no columns transitively dependent on PK.
+    - ProducdID-Google-US
+
 
 #### 6.	What is a primary and Foreign key ?
+Primary key:
+- PK works as an index of the data in a table.
+- It’s a column. Its values are unique in every row.
+- Every row must have a primary key value.
+- If it’s referred by foreign key, we can’t change its key value
+Foreign key:
+- FK works as a reference index to access the data of other table.
+- If we have a relational table C of table A. There is one column in table C that refers PK of table A. So that the data of table A can be accessed by table C.
+- This column is called foreign key.
+
 
 #### 7.	Define Join and explain different type of joins ?
+Join:
+- To avoid data duplication, data is stored in some related tables.
+- Join is used to get data from these tables to create a new table which meets our requirement.
+Types:
+- Inner join: returns records at the intersection
+- Left join: returns all records from table A and matching records from B
+- Right join: returns all from B and matching from A
+- Full join: all records from A and B
+- natural join: remove the duplicate columns from the result
+- Self join: it is a join of a table to itself.
+
 
 #### 8.	What is the advantage of stored procedure ?
+- It is a function that contains a collection of SQL queries.
+- They are pre-compiled and stored in the database. So execution is much faster.
+- It is portable. The stored procedures in SQL can be run on every platform that MySQL runs on. We don’t have to install additional package or program for that
+
 
 #### 9.	What is JDBC ?
-Java database connectivity
-Communicate with database.
+- Java Database Connectivity. It’s an API to access DB.
+- Including 3 activities: 	
+    - Connect to a DB
+    - Send queries and update statements to DB
+    - Retrieve and process the results received from DB
+
 #### 10.	Types of JDBC Driver ?
+1. JDBC – ODBC bridge driver
+    - In this type, JDBC-ODBC bridge driver converts JDBC calls into ODBC calls. And uses ODBC driver to connect to DB.
+    - It’s no recommended, because ODBC driver needs to be installed in client machine and it is slow. 
+2. Native – API driver ( partially)
+    - In this driver, JDBC API calls are converted into native API calls. And uses vendor database library to connect to DB.
+    - Causes portability issue. Native driver and vendor library have to be installed in client machine.
+ 3. Network Protocol driver ( fully)
+    - Uses middleware to connect to DB. JDBC calls are converted into vendor-specific database protocol. 
+    - No client side library is required but it is costly because of maintenance. 
+4. Thin driver ( fully)
+    - The thin driver converts JDBC calls directly into vendor-specific database protocol.
+    - Better performance and no software is required on both client and server.
+ 
+
 
 #### 11.	What are the steps to connect with the database in Java ?
 
