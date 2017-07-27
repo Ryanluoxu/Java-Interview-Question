@@ -386,39 +386,80 @@ Types:
 2. Native – API driver ( partially)
     - In this driver, JDBC API calls are converted into native API calls. And uses vendor database library to connect to DB.
     - Causes portability issue. Native driver and vendor library have to be installed in client machine.
-    ![2](http://pic/2.emf)
  3. Network Protocol driver ( fully)
     - Uses middleware to connect to DB. JDBC calls are converted into vendor-specific database protocol. 
     - No client side library is required but it is costly because of maintenance. 
-    ![3](http://pic/3.emf)
 4. Thin driver ( fully)
     - The thin driver converts JDBC calls directly into vendor-specific database protocol.
     - Better performance and no software is required on both client and server.
-    ![4](https://github.com/Ryanluoxu/Java-Interview-Question/blob/master/pic/4.emf)
-    
-     ![4](https://github.com/Ryanluoxu/Java-Interview-Question/blob/master/pic/mmexport1500263471803.jpg)
-    
-    
-
 
 
 #### 11.	What are the steps to connect with the database in Java ?
+- Register the driver class, such as DriverManager class.
+- Creating connection
+    - Create connection object using getConnection() of DriverManager
+- Creating statement
+    - Create Statement object using createStatement() of connection object
+- Executing queries and getting result
+    - Send queries to DB using executeQuery() of statement object
+    - Return a ResultSet object which contains the records for our query.
+- Closing connection
+    - Use close() of connection object
+
 
 #### 12.	Tell me some interfaces and classes that we use from java.sql package.
+- DriverManager class
+    - Used to manage, load and select database.
+    - Consist only one private constructor
+    - All other members are static
+- Connection interface
+    - Close, createStatement
+- Statement interface
+    - Used to execute a SQL statement and return results.
+- PreparedStatement interface
+    - Used to represent a pre-compile SQL
+- ResultSet interface
+    - After executing a query, we get results from DB, RS object gets the result as a table of data.
+
 
 #### 13.	Different type of JDBC statements
+- Statement:	It’s used for static SQL statements at runtime
+- PreparedStatement: 	it’s used when we have input parameters at runtime
+- CallableStatement:	it’s used to access database stored procedures
+
 
 #### 14.	Difference between Statement and PreparedStatement interface ?
+- A Statement object is used to execute simple SQL statements with no parameters
+- A PreparedStatement object is used for precompiled SQL statement that may have Input parameters.
+
 
 #### 15.	How to execute a stored procedure ?
+- Use CallableStatement.
+- call procedureName(?,?)
+
 
 ## Mock Test 3
 
 #### 1.	What is MVC? What is DAO?
+- MVC is model-view-controller, one of most popular design pattern. 
+    - View is the page that users can see and input request
+    - Controller is the logic to process the user’s requests.
+    - Model is the object that contains required data
+- DAO: data access object. We use DAO to communicate with database through DBconnection.
+
 
 #### 2.	What is Web Container? Role of Web Container?
+- It is a component of a web server. We use it to interact with servlets.  
+    ![WebContainerPic](https://goo.gl/dEfcGm)
+- Container is a place where servlet gets deployed. Load servlet class -> instantiate servlet object -> init() -> service() -> destroy();
+- It is responsible to manage the lifecycle of servlets
+- E.g. Tomcat
 
 #### 3.	Difference between doGet() and doPost()
+-	Use doGet() for HTTP GET requests. To visit certain resource.
+-	Use doPost() for HTTP POST request. To store or update certain data. 
+-	doGet() will be kept in the history while doPost() won’t. So if we use doGet to store userID and password, these sensitive data might be seen by other parties.
+
 
 #### 4.	Difference between RequestDispatcher and SendRedirect
 
