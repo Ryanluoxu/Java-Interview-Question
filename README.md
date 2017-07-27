@@ -4,11 +4,6 @@ Feel free to send me pull requests when you have better answer or I make any mis
 
 ## Mock Test 1
 
-1. o1
-    1. o2
-    2. o2
-2. o1
-
 ### 1-10
 
 #### 1.	What is the difference between JDK and JRE ?
@@ -189,10 +184,10 @@ Types:
 #### 3.	What is array ? benefits and limitation.
 - Array is a fixed sized data structure to store similar data type.
 - Benefits:
- - Optimize the codes, so that we can store, retrieve or sort the data easily
+    - Optimize the codes, so that we can store, retrieve or sort the data easily
 - Limitation:
- - The size of array is fixed. We can’t change the size at runtime.
- - We need the decide the data type when we create array.
+    - The size of array is fixed. We can’t change the size at runtime.
+    - We need the decide the data type when we create array.
  
 #### 4.	Importance of .equals() and hashCode().
 
