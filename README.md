@@ -183,8 +183,9 @@ Types:
 
 #### 3.	What is array ? benefits and limitation.
 - Array is a fixed sized data structure to store similar data type.
-- Benefits: Optimize the codes, so that we can store, retrieve or sort the data easily
-- Limitation
+- Benefits:
+ - Optimize the codes, so that we can store, retrieve or sort the data easily
+- Limitation:
  - The size of array is fixed. We can’t change the size at runtime.
  - We need the decide the data type when we create array.
  
